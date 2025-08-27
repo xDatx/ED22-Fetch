@@ -16,7 +16,7 @@
     window.processedItemId = null;
     window.lastProcessedUrl = null;
 
-    const urlPattern = /https:\/\/edwebservices2\.engdis\.com\/api\/practiceManager\/GetItem\/(\d+)\/i2[a-zA-Z0-9_]+\/\d+\/0\/\d+\/\?_=\d+/;
+    const urlPattern = /https:\/\/edwebservices2\.engdis\.com\/api\/practiceManager\/GetItem\/(\d+)\/[a-zA-Z]\d+[a-zA-Z0-9_]+\/\d+\/0\/[1-9]+\/\?_=\d+/;
     const answerBoxId = 'auto-answer-box';
 
     // Hàm hiển thị đáp án lên giao diện trang web
